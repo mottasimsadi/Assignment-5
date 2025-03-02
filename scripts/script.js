@@ -73,7 +73,7 @@ document.getElementById("year").innerHTML = year;
 
 // Challenge Part (Get Current Date) Ends Here
 
-// Challenge Part (Completed Task Button with Alert) Ends Here
+// Challenge Part (Completed Task Button with Alert) Starts Here
 
 const allCompletedButtons = document.querySelectorAll(".btn-completed");
 let countClick = 0;
@@ -111,4 +111,15 @@ for (let allCompletedButton of allCompletedButtons) {
   });
 }
 
-// Challenge Part (Completed Task Button with Alert) Starts Here
+// Challenge Part (Completed Task Button with Alert) Ends Here
+
+
+// Challenge Part (Clearing the History in the Activity Log by clicking the Clear History Button) Starts Here
+
+document
+  .getElementById("btn-clear-history")
+  .addEventListener("click", function () {
+    document.getElementById("history").innerHTML = "";
+  });
+
+// Challenge Part (Clearing the History in the Activity Log by clicking the Clear History Button) Ends Here
