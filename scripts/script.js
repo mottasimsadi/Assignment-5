@@ -33,3 +33,14 @@ document
   });
 
 // Challenge Part Ends Here
+
+
+// Challenge Part Starts Here
+
+// Jumping into Blog Page
+
+document.getElementById("goto-blogs").addEventListener("click", function () {
+  window.location.href = "blog.html";
+});
+
+// Challenge Part Ends Here
