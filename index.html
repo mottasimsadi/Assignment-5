@@ -50,6 +50,51 @@
         </nav>
     </header>
 
+    <!-- This is the Main Section -->
+     <main class="max-w-screen-2xl mx-auto mt-5 pb-14">
+        <div class="grid grid-cols-4 gap-6">
+            <section class="col-span-3 bg-white p-6 rounded-2xl">
+                <!-- This is the Task Heading section -->
+                <div class="grid grid-cols-4 gap-6 justify-between">
+                    <div class="mb-0 flex items-center bg-[#F4F7FF] p-7 rounded-xl">
+                        <div class="bg-white p-4 rounded-full mr-5">
+                            <img src="assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <p class="font-medium opacity-80">Task Assigned</p>
+                            <h2 id="task-assigned-currently" class="font-bold text-3xl">06</h2>
+                        </div>
+                    </div>
+                    <!-- This is for challenge part. It will be jumping to blog page through JS later -->
+                    <div id="goto-blogs"
+                        class="mb-0 col-span-2 flex gap-5 items-center bg-gradient-to-r from-[#3752FD] via-[#6C7FFA] to-[#9BA8F8] hover:from-[#3710FD] hover:via-[#4E30D3] hover:to-[#7A46D8] rounded-xl px-11 py-5 cursor-pointer">
+                        <div>
+                            <img src="assets/board.png" alt="">
+                        </div>
+                        <div class="font-medium text-2xl text-white">
+                            <h3>Discover Something <br> New Today!</h3>
+                        </div>
+                    </div>
+                    <!-- End of this challenge part -->
+                    <div class="flex items-center bg-[#F4F7FF] p-7 rounded-xl">
+                        <div class="bg-white p-4 rounded-full mr-5">
+                            <img src="assets/calender.png" alt="">
+                        </div>
+                        <!-- This is for challenge part. It will be dynamic through JS later -->
+                        <div>
+                            <h4 id="current-day" class="text-xl"></h4>
+                            <h3 class="text-xl font-bold">
+                                <span id="month"></span>
+                                <span id="date"></span>
+                                <span id="year"></span>
+                            </h3>
+                        </div>
+                        <!-- End of this challenge part -->
+                    </div>
+                </div>
+                <hr class="border-dashed my-8 opacity-20">
+     </main>
+
      <script src="utilities/uitilies.js"></script>
      <script src="scripts/script.js"></script>
 </body>
