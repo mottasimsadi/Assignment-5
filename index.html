@@ -23,14 +23,32 @@
     </style>
 </head>
 
-<body class="bg-[#F4F7FF] text-[#00303C] poppins-regular px-9">
+<body class="bg-[#F4F7FF] text-[#00303C] poppins-regular px-36">
     <!-- This is the Header Section -->
-     <header>
+    <header>
         <!-- This is the Nav Section -->
-         <nav>
-
-         </nav>
-     </header>
+        <nav class="max-w-screen-2xl mx-auto pt-6">
+            <div class="flex justify-between items-center bg-white rounded-2xl p-6">
+                <div class="flex flex-1 items-center">
+                    <img class="mr-3" src="assets/logo.png" alt="">
+                    <h2 class="text-4xl">Dev<span class="font-bold">Board</span></h2>
+                </div>
+                <div class="flex">
+                    <div class="flex items-center gap-4 bg-[#F4F7FF] px-4 py-1 rounded-full">
+                        <div>
+                            <img src="assets/checkbox.png" alt="">
+                        </div>
+                        <div>
+                            <h2 id="total-task-completed" class="font-bold text-[2rem]">23</h2>
+                        </div>
+                    </div>
+                    <div id="btn-randomize-color" class="ml-9 hover:opacity-70">
+                        <img class="bg-[#F4F7FF] rounded-full p-2" src="assets/theme-btn.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
 
      <script src="utilities/uitilies.js"></script>
      <script src="scripts/script.js"></script>
